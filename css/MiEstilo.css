@@ -1,0 +1,110 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 13/06/2018, 09:52:30 AM
+    Author     : TECH INSTITUTE PC8
+*/
+
+/*
+1. por elemento -> uno o varios del mismo tipo
+2. identificador -> unos solo
+3. agrupamiento -> Varios
+*/
+
+@font-face {
+  font-family: 'LaRoja';
+  font-style: normal;
+  font-weight: bold;
+  src: url(../fonts/Orbitron/Orbitron-Black.ttf);
+}
+
+@font-face {
+  font-family: 'ElAzul';
+  font-style: normal;
+  font-weight:  100;
+  src: url(../fonts/Permanent_Marker/PermanentMarker-Regular.ttf);
+}
+
+@font-face {
+  font-family: 'Colores';
+  font-style: normal;
+  font-weight: 400;
+  src: url(../fonts/Satisfy/Satisfy-Regular.ttf);
+}
+button{
+    background: rgba(20,200,45,0.5);
+    width: 100px;
+    height: 35px;
+    border-radius: 10% 20% 10% 50%;
+    font-family: 'LaRoja';
+}
+button:hover{
+    background: rgba(200,10,200,0.9);
+    color:red;
+}
+.ColorRojo{
+    color:#0101DF;
+    font-family: 'ElAzul';
+    
+}
+#subti{
+    font-size: 28px;
+    font-family: 'Colores';
+    color:#2332aa;
+}
+.cajaNegra{
+   position: relative;
+   width: 45%;
+   height: 500px;
+   border: solid #000 1px;
+   margin-left: 2%;
+   float: left;
+   border-radius: 5%;
+}
+.cajaNegra h1{
+    font-family: 'Colores';
+    font-size: 18px;
+    text-align: center;
+}
+
+.cajaNegra .labelT{
+    font-family: 'LaRoja';
+    font-size: 14px;
+    width: 20%;
+    float: left;
+    padding-left: 5%;
+    height: 40px;
+}
+
+.cajaNegra .Input{
+    font-family: 'LaRoja';
+    font-size: 14px;
+    width: 70%;
+    float: left;
+    padding-right: 5%;
+    height: 40px;
+}
+
+.separador{
+    width: 100%;
+    height: 10px;
+}
+
+/*******/
+.cajaBo{
+    margin-left: 3%;
+    width: 20%;
+    float: left;
+}
+
+.cajaBo button{
+    width: 100%;
+}
+
+
+.cajaNegra .Input input{
+    width: 100%;
+}
